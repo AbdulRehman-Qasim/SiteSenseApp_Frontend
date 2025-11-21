@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Checkmate",
+    "slug": "Checkmate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.checkmate.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-dev-client",
+      "expo-build-properties"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ede90378-3bf3-43aa-b7e2-95bdc8395071"
+      }
+    },
+    "owner": "maani1319"
+  }
+}
