@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Checkmate",
-    "slug": "Checkmate",
+    "slug": "checkmate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,12 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.checkmate.app"
+      "package": "com.checkmate.app",
+      "enableLegacyJetifier": false
     },
     "web": {
       "favicon": "./assets/favicon.png"
+      
     },
     "plugins": [
       "expo-font",
@@ -33,9 +35,9 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "ede90378-3bf3-43aa-b7e2-95bdc8395071"
+        "projectId": "8837ffbc-4ca6-4dc0-8a8d-a10dd3ea2ae5"
       }
     },
-    "owner": "maani1319"
+    "owner": "saffi"
   }
 }
